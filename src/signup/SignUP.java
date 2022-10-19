@@ -294,13 +294,18 @@ public class SignUP extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        // First thing when the button is clicked, show a message dilog indicating that Details have been submitted
+        //
         JOptionPane.showMessageDialog(null,"Details Submitted Successfully!");
+        
+        // Second, all the text fields are reset and made empty in await for the next entry
+        
         name1.setText("");
         name2.setText("");
         email.setText("");
         passwd.setText("");
-        
+        /*If there were more fields to cleared, they would have been added here
+        */
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
