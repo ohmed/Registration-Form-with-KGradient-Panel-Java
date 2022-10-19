@@ -348,6 +348,7 @@ public class SignUP extends javax.swing.JFrame {
     private javax.swing.JPasswordField passwd;
     // End of variables declaration//GEN-END:variables
 }
-/** This line here, I wrote it at night when I was very tired and exhausted
- * I can't really remember what it does it does but when you remove it, it is over
+
+/** 
+Removed a useless comment here
  */
