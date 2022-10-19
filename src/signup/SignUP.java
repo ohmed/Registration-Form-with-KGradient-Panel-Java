@@ -272,9 +272,16 @@ public class SignUP extends javax.swing.JFrame {
     }//GEN-LAST:event_emailActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // The variable jButton1 refers to the button labbelled 'Clear Entries'
-        //you cn rename the variable to any name of your choice.
-        //The most convenient way of renaming the buttons is using the format 'jBtn+Text-on-button or jBtn+Action-performed'
+        /*The variable jButton1 refers to the button labbelled 'Clear Entries'
+        *you can rename the variable to any name of your choice.
+        *The most convenient way of renaming the buttons is using the format 'jBtn+Text-on-button or jBtn+Action-performed'
+        *For instance the clear entries button can be renamed to jBtnClear
+        */
+        
+        /*The function of the bbutton is to clear all the input fields and leave them blank
+        *as seen in the block below, i.e setText in input field named name1 to blank, (name1.setText(""))
+        * This is repeated for all the available input fields
+        */
         
         name1.setText("");
         name2.setText("");
