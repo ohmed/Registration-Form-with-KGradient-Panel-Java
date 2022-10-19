@@ -272,7 +272,10 @@ public class SignUP extends javax.swing.JFrame {
     }//GEN-LAST:event_emailActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        // The variable jButton1 refers to the button labbelled 'Clear Entries'
+        //you cn rename the variable to any name of your choice.
+        //The most convenient way of renaming the buttons is using the format 'jBtn+Text-on-button or jBtn+Action-performed'
+        
         name1.setText("");
         name2.setText("");
         email.setText("");
